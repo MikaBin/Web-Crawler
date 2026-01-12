@@ -29,3 +29,9 @@
 ---
 
 ## 빠른 시작 (Quick Start)
+
+```bash
+python crawler.py "https://example.com/guide" --max-pages 10 --max-depth 1 --output guide.json
+```
+
+- 기본적으로 동일 도메인 내에서만 크롤링하며, 외부 링크까지 포함하려면 `--allow-external` 옵션을 사용해.
